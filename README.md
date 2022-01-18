@@ -8,7 +8,9 @@ There are available:
 ### Model Used & Validataion
 - Recurrent U-net trained with time series Sentinel-1 images and farm map labeling dataset produced by MAFRA (http://data.nsdi.go.kr/dataset/20210707ds00001).
 - The trained Sentinel-1 images were composited in the following periods.
+
 | No. | Start | End | Composite | Phenological stage |
+| --- | --- | --- | --- | --- |
 | 1 | 10 May | 30 May | Minimum | Planting |
 | 2 | 1 June | 20 June | Minimum | Planting |
 | 3 | 21 June | 10 July | Mean | Tillering |
@@ -17,6 +19,7 @@ There are available:
 | 6 | 21 Aug | 10 Sep | Maximum | Booting |
 | 7 | 11 Sep | 31 Sep | Mean | Ripening |
 | 8 | 1 Oct | 20 Oct | Mean | Ripening |
+
 - The model was trained with 7,762 patches and validated in 5,180 patches for each patch consists of 256 x 256 pixels. 
 - The validation ‘accuracy and Cohen's kappa value are 96.50%, 0.7857’ each which were calculated from the 40% of the farm map. 
 ### Reference
@@ -24,7 +27,8 @@ If you use this dataset, please cite the DOI below
 10.5281/zenodo.5845896 (https://doi.org/10.5281/zenodo.5845896)
 
 ### Acknowledgements
-This work was supported by International Research and Development Program of the National Research Foundation of Korea (NRF) funded by the Ministry of Science and ICT under Grant (2021K1A3A1A78097879) and supported by the European Commission under Contract H2020- CALLISTO[^1]( 101004152) by Korea University, South Korea.
+This work was supported by International Research and Development Program of the National Research Foundation of Korea (NRF) funded by the Ministry of Science and ICT under Grant (2021K1A3A1A78097879) and supported by the European Commission under Contract H2020- CALLISTO[^1] ( 101004152) by Korea University, South Korea.
 
 Researchers:  Hyun-Woo Jo (endeavor4a1@gmail.com), Woo-Kyun Lee (leewk@korea.ac.kr) 
+
 [^1]: CALLISTO - Copernicus Artificial Intelligence Services and data fusion with other distributed data sources and processing at the edge to support DIAS and HPC infrastructures (101004152) 
