@@ -25,7 +25,7 @@ There are available:
 <img src="/images/architecture.png" width=50%>
 
 - The model was trained with 7,762 patches and validated in 5,180 patches for each patch consists of 256 x 256 pixels. 
-- The validation ‘accuracy and Cohen's kappa value are 96.50%, 0.7857’ each which were calculated from the 40% of the farm map. 
+- The validation `accuracy and Cohen's kappa value are 96.50%, 0.7857` each which were calculated from the 40% of the farm map. 
 
 <img src="/images/train_validation.jpg" width=50%>
 
