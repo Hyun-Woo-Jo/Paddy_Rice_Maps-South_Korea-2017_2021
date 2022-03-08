@@ -25,10 +25,10 @@ There are available:
 <img src="/images/architecture.png" width=50%>
 
 - The model was trained with 7,762 patches and validated in 5,180 patches for each patch consists of 256 x 256 pixels.
--> The above learning material can be downloaded in h5 format [(Download)](https://916e49e3-4865-4754-af5f-be19c7f09272.filesusr.com/archives/0832c0_497d63c2d9a94a67a79c60f5a71d6a32.zip?dn=Ricepaddy_SK.zip)
-> The dataset is separated into training/valdation data, image/labeling, and part number which can be accessed by key: {tr/va}_{im/lb}_{0~4}
+> The above learning material can be downloaded in h5 format [(Download)](https://916e49e3-4865-4754-af5f-be19c7f09272.filesusr.com/archives/0832c0_497d63c2d9a94a67a79c60f5a71d6a32.zip?dn=Ricepaddy_SK.zip)
+> The dataset is separated into training/valdation data, image/labeling, and part number which can be accessed by key: {tr/va}__{im/lb}__{0~4}
 > Python example
-<img src="/images/python_example.PNG" width=50%>
+<img src="/images/python_example.PNG" width=30%>
 - The validation `accuracy and Cohen's kappa value are 96.50%, 0.7857` each which were calculated from the 40% of the farm map. 
 
 <img src="/images/train_validation.jpg" width=50%>
