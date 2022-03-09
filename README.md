@@ -25,7 +25,7 @@ There are available:
 <img src="/images/architecture.png" width=50%>
 
 - The model was trained with 7,762 patches and validated in 5,180 patches for each patch consists of 256 x 256 pixels.
-> The above learning material can be downloaded in h5 format [(Download)](https://916e49e3-4865-4754-af5f-be19c7f09272.filesusr.com/archives/0832c0_497d63c2d9a94a67a79c60f5a71d6a32.zip?dn=Ricepaddy_SK.zip) <br/>
+> The above learning material can be downloaded in h5 format [(Model)](https://916e49e3-4865-4754-af5f-be19c7f09272.filesusr.com/archives/0832c0_1bf3cd5028344b6189c18d9af0329dad.zip?dn=recurrent_unet.zip) <br/>
 > The dataset is separated into training/valdation data, image/labeling, and part number which can be accessed by key: {tr/va}\_{im/lb}\_{0~4}<br/>
 > \<Python example><br/>
 > <img src="/images/python_example.PNG" width=30%>
